@@ -8,8 +8,9 @@ tailwind.config = {
         128: "32rem",
       },
       colors: {
-        navbarBG: "#EEEDDE",
+        bannerBG: "#EEEDDE",
         "font-color": "#203239",
+        paragraph: "rgba(32, 50, 57, 0.55)",
       },
       fontFamily: {
         sans: ["ui-sans-serif", "system-ui"],

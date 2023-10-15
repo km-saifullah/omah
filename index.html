@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- ====== Navbar Start ======= -->
-    <nav class="py-[50px]">
+    <nav class="absolute top-0 left-0 w-full z-50 py-2">
       <div class="px-2 sm:px-4 lg:max-w-container mx-auto">
         <div class="flex justify-between items-center">
           <div>
@@ -70,6 +70,98 @@
       </div>
     </nav>
     <!-- ====== Navbar End ======= -->
+
+    <!-- Banner Start -->
+    <section class="bg-bannerBG py-[75px] relative">
+      <div class="px-2 sm:px-4 lg:max-w-container mx-auto">
+        <div class="flex">
+          <div>
+            <h1
+              class="text-[54px] font-poppins leading-[150%] text-font-color font-semibold"
+            >
+              Temukan Hunian Keluarga Sesuai Keinginanmu
+            </h1>
+            <p
+              class="font-light text-base font-poppins leading-[30px] text-paragraph pt-[30px] pb-[56px] w-[544px]"
+            >
+              Menyediakan hunian bagi keluarga anda dengan varian pilihan dan
+              lokasi yang strategis di kota anda dengan cara yang lebih mudah.
+            </p>
+            <div
+              class="bg-white h-[70px] w-[675px] flex justify-between items-center rounded-[15px] px-[15px]"
+            >
+              <div class="flex gap-[12px]">
+                <div>
+                  <i class="fa-solid fa-location-dot text-xl"></i>
+                </div>
+                <form action="">
+                  <input
+                    type="text"
+                    placeholder="Search location, properties, residental group"
+                    class="bg-transparent w-[351px] border-0 outline-0"
+                  />
+                </form>
+              </div>
+              <div>
+                <a
+                  href="#"
+                  class="bg-font-color text-base font-poppins text-white px-[41px] py-[13px] rounded-[10px] capitalize"
+                  >search</a
+                >
+              </div>
+            </div>
+            <div class="pt-[56px] flex gap-[75px] items-center">
+              <div>
+                <h2
+                  class="font-poppins font-semibold text-font-color text-[56px] leading-[150%]"
+                >
+                  200<span class="text-[#FF7527]">+</span>
+                </h2>
+                <p
+                  class="font-poppins text-paragraph text-base font-light leading-[30px] w-[142px]"
+                >
+                  Residental grup telah bergabung
+                </p>
+              </div>
+              <div>
+                <h2
+                  class="font-poppins font-semibold text-font-color text-[56px] leading-[150%]"
+                >
+                  10<span class="text-[#FF7527]">+</span>
+                </h2>
+                <p
+                  class="font-poppins text-paragraph text-base font-light leading-[30px] w-[142px]"
+                >
+                  Sudah berpengalaman
+                </p>
+              </div>
+              <div>
+                <h2
+                  class="font-poppins font-semibold text-font-color text-[56px] leading-[150%]"
+                >
+                  999<span class="text-[#FF7527]">+</span>
+                </h2>
+                <p
+                  class="font-poppins text-paragraph text-base font-light leading-[30px] w-[142px]"
+                >
+                  Properti tersedia di berbagai Kota
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="h-[522px] w-[401px] overflow-hidden">
+            <picture>
+              <img
+                class="w-full h-full object-cover"
+                src="./images/banner_img.png"
+                alt="Not Found"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner End -->
 
     <script src="./js/tailwind.config.js"></script>
   </body>
